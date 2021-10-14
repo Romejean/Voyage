@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet/less" type="text/css" href="style.less" />
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/less@4.1.1"></script>
+
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!-- Button haut de page -->
+  <div class="button_reseaux">
+    <div class="container py-4">
+      <div class="res_sociaux mw-100">
+        <img src="assets/20.png" alt="button Facebook">
+        <img src="assets/19.png" alt="button Twitter">
+      </div>
+    </div>
+  </div>
+  <!-- navbar -->
+  <div class="menu">
+    <div class="container">
+
+      <nav class="navbar navbar-expand-lg ">
+
+        <a href="" class="navbar-brand" href="#">
+          <img src="assets/18.png" class="logo mw-100" alt="logo_société">
+        </a>
+        <div class="cassecouille">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Book
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Destinations
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">France</a></li>
+                  <li><a class="dropdown-item" href="#">Brazil</a></li>
+                  <li><a class="dropdown-item" href="#">Algeria</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Prices</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Alerts </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </div>
+  </div>
+  </nav>
+
+  <!-- carousel -->
+  <div class="carousel_img">
+    <div class="container py-4">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></li>
+          <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></li>
+          <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></li>
+          <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></li>
+          <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></li>
+          <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></li>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/6.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/7.jpg" class="rounded mx-auto d-block img-fluid w-100 " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/8.jpg" class="rounded mx-auto d-block img-fluid w-100 " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/9.jpg" class="rounded mx-auto d-block img-fluid w-100 " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/10.jpg" class="rounded mx-auto d-block img-fluid w-100 " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/11.jpg" class="rounded mx-auto d-block img-fluid w-100 " alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- card -->
+  <!-- prévoir changements lorque la taille est petite pour display les un sous les autres -->
+  <div class="container">
+    <div class="card-group">
+      <div class="card my-5 mx-3">
+        <div class="article1">
+          <div class="articleimg"> <img src="assets/13.png" alt=""></div>
+          <div class="articletext">Safe, structured and amazing application</div>
+        </div>
+        <div class="card-body">
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et mollitia iste id recusandae
+            perspiciatis neque odio temporibus perferendis ea optio libero, suscipit nisi impedit reiciendis. Voluptatum
+            unde vitae neque! Distinctio, molestiae, ipsum harum ad quo magnam atque, vitae repellat cum quis minima
+            iusto ipsam tempore facilis rerum sint quaerat obcaecati aut consequatur dolorum! Quidem, voluptatem alias
+            eum, dolor fugit magni autem tempore nam suscipit quo dolore natus nostrum. Repudiandae, similique!</p>
+          <a href="#">more info</a>
+        </div>
+      </div>
+      <div class="card my-5 mx-3">
+        <div class="article2">
+          <div class="articleimg"> <img src="assets/17.png" alt=""></div>
+          <div class="articletext">The sun is shining today, book your trip</div>
+        </div>
+        <div class="card-body">
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et mollitia iste id recusandae
+            perspiciatis neque odio temporibus perferendis ea optio libero, suscipit nisi impedit reiciendis. Voluptatum
+            unde vitae neque! Distinctio, molestiae, ipsum harum ad quo magnam atque, vitae repellat cum quis minima
+            iusto ipsam tempore facilis rerum sint quaerat obcaecati aut consequatur dolorum! Quidem, voluptatem alias
+            eum, dolor fugit magni autem tempore nam suscipit quo dolore natus nostrum. Repudiandae, similique!</p>
+          <a href="#">more info</a>
+        </div>
+      </div>
+
+      <div class="card my-5 mx-3 ">
+        <div class="article3">
+          <div class="articleimg"> <img src="assets/12.png" alt=""></div>
+          <div class="articletext">Meet new people live more intensely</div>
+        </div>
+        <div class="card-body">
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et mollitia iste id recusandae
+            perspiciatis neque odio temporibus perferendis ea optio libero, suscipit nisi impedit reiciendis. Voluptatum
+            unde vitae neque! Distinctio, molestiae, ipsum harum ad quo magnam atque, vitae repellat cum quis minima
+            iusto ipsam tempore facilis rerum sint quaerat obcaecati aut consequatur dolorum! Quidem, voluptatem alias
+            eum, dolor fugit magni autem tempore nam suscipit quo dolore natus nostrum. Repudiandae, similique!</p>
+          <a href="#">more info</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- drapeau -->
+
+  <Div class="container">
+    <div class="titledrapeau mx-3">
+      <h3>Destinations</h3>
+      <hr>
+    </div>
+    <div class="pays">
+      <div class="drapeaux mx-3">
+        <div class="dfrance">
+          <img id="france" src="assets/3.jpg" alt="drapeau France">
+        </div>
+        <div class="dbrazil">
+          <img id="france" src="assets/4.jpg" alt="drapeau Brazil">
+        </div>
+        <div class="dalgeria">
+          <img id="france" src="assets/5.jpg" alt="drapeau Algeria">
+        </div>
+      </div>
+      <div class="tdrapeaux">
+        <div class="tfrance fw-bold ">France</div>
+        <div class="tbrazil fw-bold ">Brazil</div>
+        <div class="talgeria fw-bold ">Algeria</div>
+      </div>
+    </div>
+  </Div>
+  <!-- prévoir changements lorque la taille est petite pour display en carrousel -->
+
+
+
+  <!-- Bloc about us et how to travel -->
+  <div class="bupfooter">
+    <div class="container">
+      <div class="upfooter">
+        <div class="Baboutus">
+          <!-- about us -->
+          <div class="aboutus">
+            <h3>About Us</h3>
+          </div>
+          <hr class="hr1">
+
+          <div class="abouttext">
+            ipsum dolor sit amet consectetur adipisicing elit. At natus, officia quae tenetur ullam accusamus
+            itaque
+            similique dolore quaerat tempora commodi nobis numquam totam, sequi neque deleniti hic perferendis
+            laboriosam
+            mollitia aperiam fugit libero provident maiores temporibus. Assumenda laudantium eligendi, facere, placeat
+            sit
+            adipisci amet, dignissimos eius repellendus culpa sequi.
+            <br>
+            <br>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt corrupti rem perferendis accusantium
+            nihil,
+            debitis omnis. Autem culpa consequuntur vitae. Libero repudiandae pariatur vel nulla sapiente, ullam
+            distinctio nemo accusantium tenetur molestiae suscipit eaque at quidem excepturi labore officiis vero
+            minus
+            repellat asperiores reiciendis beatae quibusdam eos voluptatibus? Error eaque, corporis pariatur
+            reprehenderit
+            officiis ut aut labore distinctio non ab laboriosam mollitia est cum ad. Maxime est vitae sequi saepe vero
+            quis magni atque eius.
+
+          </div>
+        </div>
+
+        <div class="Bwhyus">
+          <!-- why us -->
+          <div class="whyus">
+            <h3>Why Us</h3>
+          </div>
+          <hr class="hr2">
+          <div class="whyarticle1">
+            <div class="whyimg"> <img src="assets/14.png" alt=""></div>
+            <div class="whytext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis ab, accusantium
+              magnam deserunt iusto expedita exercitationem ipsam. Blanditiis.</div>
+          </div>
+          <div class="whyarticle1">
+            <div class="whyimg"> <img src="assets/15.png" alt=""></div>
+            <div class="whytext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis ab, accusantium
+              magnam deserunt iusto expedita exercitationem ipsam. Blanditiis.</div>
+          </div>
+          <div class="whyarticle1">
+            <div class="whyimg"> <img src="assets/16.png" alt=""></div>
+            <div class="whytext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis ab, accusantium
+              magnam deserunt iusto expedita exercitationem ipsam. Blanditiis.</div>
+          </div>
+        </div>
+
+      </div>
+      <div class="howtotravel">
+        <h3>How to travel</h3>
+        <hr>
+
+        <div class="traveltext">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam repudiandae quis,
+          consectetur facilis reprehenderit temporibus quae quibusdam excepturi ipsam provident, minima incidunt eos
+          veniam neque.
+        </div>
+        <button type="button" class="btn btn-success">Subscribe</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- how to travel -->
+
+
+
+  <!-- footer -->
+  <div class="footer">
+    <div class="container">
+
+      <div class="casseburne">
+        <div class="casseb">
+          <a aria-current="page" href="#">Home</a>
+        </div>
+        <div class="casseb">
+          <a aria-current="page" href="#">Book</a>
+        </div>
+        <div class="casseb">
+          <a aria-current="page" href="#">Destinations</a>
+        </div>
+        <div class="casseb">
+          <a href="#">Prices</a>
+        </div>
+        <div class="casseb">
+          <a href="#">Alerts </a>
+        </div>
+        <div class="casseb">
+          <a href="#">Contact </a>
+        </div>
+
+      </div>
+
+      <div class="footerbot">
+        <img class="footerimg" src="assets/copyright.png" alt="copyright logo">
+        <div class="footertxt">There is no birds here Look around.</div>
+      </div>
+    </div>
+
+
+</body>
+
+</html>
